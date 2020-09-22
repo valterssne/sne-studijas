@@ -17,4 +17,8 @@ Datormācības materiāli pamatkursā
 -*pwdx* process list of directory  
 -*ls* - mapes os  
 -*ls -l* - mapes, to piekļuves iespējas izmērs, date modific  
-
+-*df*- cietā diska apjoms, vieta  
+-*passwd*- nomainīt paroli pc  
+-*ps*- notiekošie processi shellā    
+-*cal*- kalendārs  
+-*rev*- raksta vārdus/ tekstu reversā(apgr)  
