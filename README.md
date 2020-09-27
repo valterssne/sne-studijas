@@ -3,6 +3,7 @@ Datormācības materiāli pamatkursā
 
 # 1.ieraksts 16.09.2020
 
+-* init 0*- izslēdz pc  
 -*uname* - OS nosaukums    
 -*uname -a*  - precīzs info par OS  
 -*who* - use name  
@@ -24,13 +25,31 @@ Datormācības materiāli pamatkursā
 -*rev*- raksta vārdus/ tekstu reversā(apgr)  
 
 
-# 2.modarbība 23.09.2020
+# 2.nodarbība 23.09.2020
 cd ..
 ~  tilde
 whereis ls
 echo $PATH
 cat  
+rmdir remove directory  
+rm remove file  
+nano  atver rakstisans lietotni primitīvu  
+cd  pārvieto lokāciju  
+heade  teksta pirmās rindas saturs  
+tail  pēdējā teksta rinda, tās saturs   
+mv pārvietot failu  
+find atrast failu  
+echo izvadīt tekstu  
+cat parādīt teksta failu  
+wc sasakitit failā  
+uniq atkārtotu detaļu uzskaitijums  
+exit iziet no faila  
+touch izveidot failu brīvā fromātā  
+rm rf izdzēst visus failus dotajā lokācijā
+xdg-open atvērt failu  
+whereis atrod failu pēc nosaukuma vai citiem kriterijiem  
 
+Piem no lekcijas:  
 mkdir EFG  
 mkdir HIJ      
 echo fghij > e.txt  
