@@ -80,3 +80,13 @@
    80  pwd
    81  history
    82  history > history_20200928.txt
+   83  ls -lt
+   84  git config --global user.email snevalters@gmail.com
+   85  git add .
+   86  git commit -m "4.nodarbība" 
+   87  ls -lt
+   88  rm *.out
+   89  ls -lt
+   90  git push origin master
+   91  git push origin master
+   92  history > history_20200928.txt
