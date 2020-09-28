@@ -48,6 +48,8 @@ touch izveidot failu brīvā fromātā
 rm rf izdzēst visus failus dotajā lokācijā
 xdg-open atvērt failu  
 whereis atrod failu pēc nosaukuma vai citiem kriterijiem  
+chmod mainit tiesibas
+
 
 Piem no lekcijas:  
 mkdir EFG  
@@ -128,4 +130,10 @@ echo b.txt
    65  cd HIJ
    66  cd
    67  history
+   
+   
+# 3.nodarbība 28.09.2020
+
+echo $? parādīt darbības pareizibu/kļūdu, ja pareizi, tad ir atb 0  
+
 
