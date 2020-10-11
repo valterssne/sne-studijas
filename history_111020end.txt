@@ -1,0 +1,252 @@
+    1  pwd
+    2  pwdx
+    3  ls
+    4  useradd
+    5  curl
+    6  df
+    7  finger
+    8  finger valters
+    9  passwd
+   10  ps
+   11  whoami
+   12  mkdir
+   13  mv
+   14  cmp
+   15  cal
+   16  rev
+   17  yes
+   18  echo
+   19  echo$
+   20  man
+   21  man man
+   22  tar
+   23  shutdown
+   24  shutdown now
+   25  uname
+   26  uname-a
+   27  uname a
+   28  who
+   29  sh
+   30  sudo
+   31  sudo <command>
+   32  man sudo_root
+   33  sudo command
+   34  git clone https://github.com/valterssne/sne-studijas/
+   35  ls
+   36  ls -la
+   37  echo$
+   38  echo
+   39  git clone  git clone https://github.com/valterssne/sne-studij
+   40  nano.c
+   41  nano
+   42  data_type.c
+   43  nano
+   44  nano data_type.c
+   45  ls -lt
+   46  gcc data_type.c
+   47  nano data_type.c
+   48  gcc data_type.c
+   49  nano data_type.c
+   50  gcc data_type.c
+   51  ls -lt
+   52  nano data_type.c
+   53  gcc data_type.c
+   54  nano data_type.c
+   55  cp data_type.c dialogue.c
+   56  nano dialogue.c
+   57  ls -lt
+   58  sudo apt-get install git
+   59  git clone https://github.com/valterssne/sne-studijas/
+   60  git config --global user.email snevalters@gmail.com
+   61  git add .
+   62  nano tests.c
+   63  sudo apt-get install #!/bin/sh
+   64  sudo apt-get install build-essential
+   65  nano hmm.c
+   66  git clone https://github.com/valterssne/sne-studijas/
+   67  nano data_type.c
+   68  gcc data_type.c
+   69  sudo apt-get install gcc
+   70  gcc data_type.c
+   71  ls -lt
+   72  nano gitup.c
+   73  gcc gituo.c
+   74  gcc gitup.c
+   75  nano gitup.c
+   76  ./ gitupdate
+   77  gcc gitupdate
+   78  ls -lt
+   79  echo
+   80  echo$
+   81  nano helloworld.c
+   82  nano first.c
+   83  git clone https://github.com/valterssne/sne-studijas/
+   84  nano first.c
+   85  gcc gitupdate -o gitupdate.out
+   86  nano  gitupdate
+   87  cat gitupdate.c
+   88  nano  gitupdate
+   89  cat gitupdate.c
+   90  gcc gitupdate -o gitupdate.out
+   91  gcc gitupdate.c -o gitupdate.out
+   92  ls -l gitupdate.out
+   93  ls -l
+   94  cd sne-studijas/
+   95  nano HelloWorld.c
+   96  gcc HelloWorld.c
+   97  gcc HelloWorld.c -o HelloWorld.c
+   98  ls -l
+   99  nano gitup
+  100  ls
+  101  ls -a
+  102  ls -lt
+  103  nano test.c
+  104  cat test.c
+  105  gcc test.c -o test.out
+  106  ls -l test.out
+  107  gcc test.c
+  108  pwd
+  109  nano HelloWorld.c
+  110  cat HelloWolrd.c
+  111  cat HelloWorld.c
+  112  gcc HelloWorld.c -o HelloWorld.out
+  113  ls -l HelloWorlf.out
+  114  ls -l HelloWorld.out
+  115  ./HelloWorld.out
+  116  nano tests.c
+  117  nano HelloWorld.c
+  118  nano test.c
+  119  cat test.c
+  120  gcc test.sh -o test.out
+  121  gcc test.c -o test.out
+  122  nano test.c
+  123  cat test.c
+  124  gcc test.c -o test.out
+  125  nano dialouge.c
+  126  chmod +x test.c
+  127  ls -l test.out
+  128  chmod +x test.out
+  129  ls -lt
+  130  ./a.out
+  131  gcc test.c
+  132  nano test.c
+  133  gcc test.c
+  134  nano test.c
+  135  gcc test.c
+  136  nano test.c
+  137  gcc test.c
+  138  nano test.c
+  139  gcc test.c
+  140  nano test.c
+  141  gcc test.c
+  142  nano test.c
+  143  nano tests.x
+  144  nano tests.c
+  145  cat tests.c
+  146  gcc test.c -o test.out
+  147  nano tests.c
+  148  cat tests.c
+  149  gcc tests.c -o tests.out
+  150  ls -l tests.out
+  151  ./tests.out
+  152  nano tests.c
+  153  $ gcc --version
+  154  gcc --version
+  155  gcc -o tests tests.c
+  156  nano tests.c
+  157  gcc -o tests tests.c
+  158  nano tests.c
+  159  cat tests.c
+  160  gcc tests.c -o tests.out
+  161  ls -l tests.out
+  162  ./tests.out
+  163  nano tests.c
+  164  cat tests.c
+  165  gcc tests.c -o tests.out
+  166  ls -l tests.out
+  167  ./tests.out
+  168  nano tests.c
+  169  cat tests.c
+  170  gcc tests.c -o tests.out
+  171  ls -l tests.out
+  172  ./tests.out
+  173  nano dialogue.c
+  174  nano data_type.c
+  175  gcc data_type.c
+  176  nano data_type.c
+  177  gcc data_type.c
+  178  gcc data_type.c -o data_type.c
+  179  ls -l data_type.out
+  180  ls -l
+  181  cd sne_local
+  182  ls -lt
+  183  ls lt
+  184  ls
+  185  cd sne-studijas
+  186  git clone https://github.com/valterssne/sne-studijas MD_11.10
+  187  cd MD_11.10
+  188  ls -lt
+  189  nano data_type.c
+  190  nano try.c
+  191  gcc try.c
+  192  nano try.c
+  193  gcc try.c
+  194  ls -lt
+  195  pwd
+  196  nano try.c
+  197  gcc try.c
+  198  ./a.out
+  199  nano try.c
+  200  gcc try.c
+  201  ./a.out
+  202  nano try.c
+  203  gcc try.c
+  204  ./a.out
+  205  nano try.c
+  206  gcc try.c
+  207* 
+  208  nano try.c
+  209  gcc try.c
+  210  ./a.out
+  211  nano try.c
+  212  nano data_type.c
+  213  gcc data_type.c
+  214  ls -lt
+  215  ./a.out
+  216  nano data_type.c
+  217  gcc data_type.c
+  218* 
+  219  nano data_type.c
+  220  gcc data_type.c
+  221  nano data_type.c
+  222  gcc data_type.c
+  223  ./a.out
+  224  nano data_type.c
+  225  gcc data_type.c
+  226  ./a.out
+  227  nano data_type.c
+  228  nano dialogue.c
+  229  gcc dialogue.c
+  230  nano dialogue.c
+  231  gcc dialogue.c
+  232  nano dialogue.c
+  233  gcc dialogue.c
+  234  nano dialogue.c
+  235  ./a.out
+  236  nano dialogue.c
+  237  gcc dialogue.c
+  238  nano dialogue.c
+  239  gcc dialogue.c
+  240  nano dialogue.c
+  241  gcc dialogue.c
+  242  ./a.out
+  243  ls -lt
+  244  gcc dialogue.c -o dialogue.out
+  245  ls -lt
+  246  -o dialogue.out
+  247  gcc dialogue.c -o b.out
+  248  ls -lt
+  249  chmod +x b.out
+  250  history
+  251  history > history 11.10_end.txt
+  252  history > history_111020end.txt

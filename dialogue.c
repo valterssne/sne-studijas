@@ -29,43 +29,43 @@ void main()
  // 2.darbība - vērtības piešķiršana
  // a = 10  // vērtības piešķiršana
  // a  -> 0000 1010
-  printf("Mainīgā a vērtība (laika vienība t1) ir: %d",a);
+  printf("Mainīgā a vērtība (laika vienība t1) ir: %d \n ",a);
   a = 125;
-  printf("Mainīgā a vērtība (laika vienība t2) ir: %d",a);
-  printf("Konstantes A vērtība (laika vienība t3) ir: %d",A);
+  printf("Mainīgā a vērtība (laika vienība t2) ir: %d \n ",a);
+  printf("Konstantes A vērtība (laika vienība t3) ir: %d \n ",A);
  // konstanti mainit nevar
 char mans_mainiiigais = 45;// centīsimies izmantot mneimoniskos nosaukumus - attelo mainiga jegu $vai noluku
  a = 0x10; // 
- printf("Mainiga a vērtība (laika vienība t4) ir: %d",a);   // progn 10 ok
- printf("Mainiga a vērtība (laika vienība t5) ir: %d(oct)",a);  // progn 20 ok 
- printf("Mainiga a vērtība (laika vienība t6) ir: %d",a);
- printf("Mainiga a vērtība (laika vienība t7) ir: %d",a);
+ printf("Mainiga a vērtība (laika vienība t4) ir: %d \n ",a);   // progn 10 ok
+ printf("Mainiga a vērtība (laika vienība t5) ir: %d(oct) \n ",a);  // progn 20 ok 
+ printf("Mainiga a vērtība (laika vienība t6) ir: %d \n ",a);
+ printf("Mainiga a vērtība (laika vienība t7) ir: %d \n ",a);
  a = 65;
- printf("Mainiga a vērtība ir: %d",a);
- printf("Mainiga a vērtība ir: %o (oct)",a);
- printf("Mainiga a vērtība ka simbols: %c",a);
+ printf("Mainiga a vērtība ir: %d \n " ,a);
+ printf("Mainiga a vērtība ir: %o (oct) \n ",a);
+ printf("Mainiga a vērtība ka simbols: %c \n ",a);
  
  a = 125;
- printf("Mainiga a vērtība ir: %d",a);
+ printf("Mainiga a vērtība ir: %d \n " ,a);
  a = 126;
- printf("Mainiga a vērtība ir: %d",a);
+ printf("Mainiga a vērtība ir: %d \n ",a);
  a = 127;
- printf("Mainiga a vērtība ir: %d",a);
+ printf("Mainiga a vērtība ir: %d \n " ,a);
 // 1 byte -> 256 numbers
 // => without sign 0 .. 255
 // => with sign -128 ... 0 ... 127
 
  a = 128;
- printf("Mainiga a vērtība ir: %d",a);
+ printf("Mainiga a vērtība ir: %d \n ",a);
  a = 258; // 258 = 256 + 2 -> 0000 0001    0000 0010
- printf("Mainiga a vērtība ir: %d",a);
+ printf("Mainiga a vērtība ir: %d \n ",a);
 
 unsigned char b = 128;
-printf(" Mainiga b vērtība ir : %d" , b);
+printf(" Mainiga b vērtība ir : %d \n " , b);
 
 //int
 int c;
-printf("int datu tupa izmērs baitos: $ld", sizeof(c));
+printf("int datu tupa izmērs baitos: %ld \n ", sizeof(c));
 // soreiz int atbilst 4 baiti (32 biti)
 //=> without sign 0 ... (2^32-1)
 // with sign -(2^31) ... 0 ... (2^31-1)
@@ -73,9 +73,9 @@ printf("int datu tupa izmērs baitos: $ld", sizeof(c));
 
 // --------------------------------------------------------------------
  float d = 6.5;  // double
- printf("float datu tipa skaitļi attēlošana: %f ", d) 
- printf("float datu tipa skaitļi attēlošana ar 2 cipariem aiz komata: %.2f ", d) 
- printf("float datu tipa skaitļi attēlošana bez cipariem aiz komata: %.f ", d) 
+ printf("float datu tipa skaitļi attēlošana: %f \n ", d) ;
+ printf("float datu tipa skaitļi attēlošana ar 2 cipariem aiz komata: %.2f \n ", d); 
+ printf("float datu tipa skaitļi attēlošana bez cipariem aiz komata: %.f \n ", d); 
 
 }
 
@@ -86,28 +86,30 @@ printf("int datu tupa izmērs baitos: $ld", sizeof(c));
 void main()
 {
 char a;
-printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:");
+printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:\n ");
 scanf("%c",&a);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c" ,a);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d" ,a);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x" ,a);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o" ,a);
-printf(" P.s ka reals skaitlis 
-int b
-printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:");
-scanf("%c",&b);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c" ,b);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d" ,b);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x" ,b);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o" ,b);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c\n " ,a);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d \n " ,a);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x \n " ,a);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o \n " ,a);
+printf(" P.s ka reals skaitlis %f\n " ,a);
+int b;
+printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:\n ");
+scanf("%d \n ", &b);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c \n " ,b);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d \n " ,b);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x \n " ,b);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o \n " ,b);
+printf(" P.s ka reals skaitlis %f\n " ,a);
 
-double c
-printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:");
-scanf("%c",&b);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c" ,c);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d" ,c);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x" ,c);
-printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o" ,c);
+double c;
+printf("Cienijamais, lietotaj, ludzu ievadi vienu burtu:\n ");
+scanf("%f \n  " , &c);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu: %c \n " ,c);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura dec dec kod ir: %d \n " ,c);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura hex kods ir: %0x%x \n " ,c);
+printf("Cienijamais, lietotaj, tu esi ievdijis simbolu, kura oct kods ir: %o \n " ,c);
+printf(" P.s ka reals skaitlis %f\n " ,a);
 
 }
 
