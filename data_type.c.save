@@ -1,0 +1,36 @@
+//kods dazadu datu tipu petisanai
+//informācijas vienibas ar kuram opere cilveks - simboli un skaitļi
+//simboli: burti, cipari, punktuaciajs zimes utt. - ASCII tabula -simbols vs binarais kods
+
+// skaitļi: veseli skaitļi, reali skaitļi, kompleksie skaitļi (divas daļas realie un imaginārie)
+
+//Informacijas vieniba ar kuru opere dators - bits (0/1)
+//Informacijas vienibas ar adresi (datorā) - baits
+//1 byte = 8 biti
+// ASCII table - one symbol == 1 byte
+// unique binary combinations inside 1 byte - 
+// 1 biti: 0 , 1 - 2 kombinacijas
+// 2 biti:  00, 01, 10, 11 - 4 kombinacijas
+// 3 biti: 000, 001, 010, 011, 100, 101, 110, 111 - 8 kombinacijas
+// x biti: .... - (stavokļu skaits)^biti - (2)^8=256
+// ASCII tabulā - 256 unikali simboli (ASCII tabulas 1.daļā - 128 simboli)
+
+
+#include<stdio.h>
+
+void main()
+ {
+ char a = 10;
+ // 1.darbiba - RAM atmina tiek atveleta viena char datu tipa mainiga glabasanai
+ // šī vieta ir viennozīmīgi saķēdēta ar identifikatoru "a" (bet, vietai ir arī adrese)
+ // saskaņa ar char datu  tipu, vietas izmērs  - 1 baits
+ // Kā šajā izskatījāš tas atmiņas apgabals: 0000 0101 vai 1111 1110 vai 0000 1010
+ // char a; //deklarēšana
+ // 2.darbība - vērtības piešķiršana
+ // a = 10  // vērtības piešķiršana
+ // a  -> 0000 1010
+ printf("Mainīgā a vērtība (laika momentā t ir: %d/n",a) // parādīsies statiskais teksts + % ZĪME NORĀDA KUR PIEŠĶO
+ a = 125
+}
+
+  
