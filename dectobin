@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+  char dec, sk, rez;
+
+  printf("Ievadiet, lūdzu, dec skaitli:\n");
+  scanf("%d", &dec);
+  printf("Bin sistēmā izvēlētais skaitlis ir ");
+  for (sk = 7; sk >= 0; sk--)
+{
+rez = dec >> sk;
+  if (rez & 1)
+    printf("1");
+  else
+    printf("0");
+}
+printf("\n");
+return 0;
+}
