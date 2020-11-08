@@ -5,14 +5,12 @@ long long fakt = 1;
 int veids;
 long long int sk;
 
-
 int main()
 {
-    printf("Ievadiet skaitli, kam aprēķināt faktoriālu!\n");
+    printf("Lūdzu, ievadiet decimālu skaitli, kam aprēķināt faktoriālu!\n");
     scanf("%lld" ,&sk);
-    printf("Kādu datu tipi vēlaties izmantot? Ievadiet 1 - char, 2 - int, 3 - long long tipam\n");
+    printf("Kādu datu tipi vēlaties izmantot? Ievadiet 1 - char, 2 - int, 3 - long long datu tipam!\n");
     scanf("%d" ,&veids);
-    printf("skaitlis ir %lld un datu tips ir %d\n" ,sk, veids);
     if(sk<0)
     {
         printf("Faktoriāls neeksistē šim skaitlim!\n");
@@ -20,39 +18,55 @@ int main()
     else{
             if(veids == 1)
             {
-                         do
+                if(sk>5)
+                {
+                    printf("Nevar aprēķināt faktoriālu ar izvēleto datu tipu!!!\n");
+                }
+                
+                else
+                    {
+                     while(n<sk+1)
                         {
                             fakt*=n;
                             n++;
-                           
                         }
-                        while(n<sk+1, fakt<=127);
-                    printf("Faktoriālas no skaitļa %lld ir %lld" , sk, fakt);
+                    printf("Faktoriālas no skaitļa %lld ir %lld.\n" , sk, fakt);
+                    }
             }        
             
             else if(veids == 2)
             {
-                        while(n < sk + 1)
+                if(sk>12)
+                {
+                    printf("Nevar aprēķināt faktoriālu ar izvēleto datu tipu!!!\n");
+                }
+                    
+                else{
+                    while(n < sk + 1)
                         {
                             fakt*=n;
                             n++;
                         }
-                    printf("Faktoriālas no skaitļa %lld ir %lld" , sk, fakt);
-            } 
+                    printf("Faktoriālas no skaitļa %lld ir %lld.\n" , sk, fakt);
+                    }
+           } 
             
             else if(veids == 3)
-            {
-                       while(n < sk + 1)
+           {
+                if(sk>20)
+                {
+                    printf("Nevar aprēķināt faktoriālu ar izvēleto datu tipu!!!\n");
+                }
+                    
+                else{
+                    while(n < sk + 1)
                         {
                             fakt*=n;
                             n++;
                         }
-                    printf("Faktoriālas no skaitļa %lld ir %lld" , sk, fakt);
+                    printf("Faktoriālas no skaitļa %lld ir %lld.\n" , sk, fakt);
                     }
-            
-            else{
-                printf("Datu formāta ievades kļūda!\n");
-                }
+           }
         }
         
 return 0;
