@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+
+void a_tukss()
+    {
+        int a=12;
+        int b=10;
+        int c;
+        c=a*b;
+        printf("Bez argumenta un return vērtībām, bet a = %d, b = %d, to reizinājums ir %d.\n" ,a, b,c); 
+    }
+void ar_arg(int e)
+    {
+        printf("Funkcija ar argumentu, bet bez return vērtības. Atgumenta vērtība ir %d.\n" , e); //vērtība ir int main sadaļa iekavās pēc f-jas norādīta
+    }
+
+int ar_return()
+    {
+        int atgr =7;
+        printf("Funkcija bez argumenta, bet ar return vērtību! Tā vērtība šoreiz ir %d. \n " ,atgr);
+        return atgr;
+    }
+
+int ar_abiem(int f, int g, int h)
+    {
+        int abi = f / g * h;
+        printf("Funkcija ar argumentu un return vērtību! %d / %d * %d = %d!\n" ,f,g,h, abi); //atgirezama vērtība ir definēta sākumā, ta tiek parādīta printf'ā
+        return abi;
+    }
+
+
+int main()
+{
+   printf("Kods, lai izprastu funkcijas. 4 veidu iespējamās kombinācijas. :)\n");
+   a_tukss();
+   ar_arg(48);
+   ar_return();
+   ar_abiem(12,3,6); 
+    
+    
+    return 0;
+}
