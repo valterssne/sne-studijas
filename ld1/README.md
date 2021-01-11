@@ -2,6 +2,8 @@
 
 Izmantojot šo kodu ir iespējams noteikt savas f-jas n-tā locekļa vērtību un ipeirkšējo locekļu summu, izmantojot rekurences reizinātāju.
 
+Links uz f-jas cos(x)cos(x) [grafiku](https://github.com/valterssne/sne-studijas/blob/master/ld1/ld1_series.png)
+
 -Programmas kods:
 
 ```
