@@ -39,7 +39,7 @@ long double a,S,y,y1;
         scanf("%lf" ,&x);
 
         y=cos(x)*cos(x);                           //vispariga f-ja
-        printf("y=cos^2(%lf)=%.3Lg\n" ,x,y);
+        printf("y=cos^2(%lf)=%.3Lg\n" ,x,y);    //vērtības f-jai attainojam ar long float, lai parādītu mazaas veertiibas
 
         a=pow(-1,k+1)*pow(x,2*k)*pow(2,2*k-1)/(1.);
         S=1-a; //f-jas vērtība
