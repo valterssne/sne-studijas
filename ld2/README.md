@@ -4,7 +4,7 @@ Pēc lietotājam vēlamo datu noskaidrošanas ir iespējams veikt f-jas mainīg�
 
 [Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
 
-Links uz attēlu [f-jas saknēm]()
+Links uz attēlu [f-jas saknēm](https://github.com/valterssne/sne-studijas/blob/master/ld2/ld2_roots.jpg) ([0;3] y=0,2)
 
 ```
 #include <stdio.h>
