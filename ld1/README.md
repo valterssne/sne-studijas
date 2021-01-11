@@ -4,6 +4,8 @@ Izmantojot šo kodu ir iespējams noteikt savas f-jas n-tā locekļa vērtību u
 
 Links uz f-jas cos(x)cos(x) [grafiku](https://github.com/valterssne/sne-studijas/blob/master/ld1/ld1_series.png)
 
+[Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
+
 -Programmas kods:
 
 ```
