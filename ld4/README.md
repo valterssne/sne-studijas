@@ -20,6 +20,8 @@ S(trap) =((a+b)/2)*h  integralis=(b-a)*((f(a)+f(b))/2)
 Simspona formula integraalim= ((b-a)/6)*(f(a)+4f((a+b)/2)+f(b))
 
 Intergāļa vērtības bija gandrīz identiksas, atšķīrās tikai 3 cipars aiz komata.
+
+[Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
 ```
 #include<stdio.h>
 #include<math.h>
