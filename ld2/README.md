@@ -2,6 +2,8 @@
 
 Pēc lietotājam vēlamo datu noskaidrošanas ir iespējams veikt f-jas mainīgā aprēķinu, lai parādītu lietotājam, kurās x vērtībās, viņa izvēlētā f-jas vērtība, būs 0.
 
+[Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
+
 Links uz attēlu [f-jas saknēm]()
 
 ```
