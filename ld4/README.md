@@ -7,7 +7,7 @@ Iespēja noteikt f-jas laukuma lielumu, izmantojot integrāli, to rēķinot ar:
 
 Attēls no [Wolframaplha](https://github.com/valterssne/sne-studijas/blob/master/ld4/integr.PNG) kā pierādījums f-jas inegrālim.
 
-Attēls ar iekrāsoto laukuma daļu no [Gnuplot ]().
+Attēls ar iekrāsoto laukuma daļu no [Gnuplot ](https://github.com/valterssne/sne-studijas/blob/master/ld4/interaalis_gpp.png).
 
 f(x)=cos(x)*cos(x)
 
