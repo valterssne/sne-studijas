@@ -6,7 +6,9 @@ Kaut gan kods ir uzrakstīts arī modas aprēķinam, ir pieļauta kāda kļūda,
 
 Datu nolasīšanai un vērtību noteikšanai tika izmantoti gan %c , gan %d datu veidi, kas ļāva uzreiz nomainīt ot vērtības uz bin, neliekot veidot atsevišķu daru faili salīdzināšanai.
 
-Šo datu attēlosana Gnuplot man nesanāca, jo nespēju saprast, kā ko rakstīt gnuplotam
+Šo datu attēlosana Gnuplot man nesanāca, jo nespēju saprast, kā ko rakstīt gnuplotam.
+
+[Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
 
 
 ```
