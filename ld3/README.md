@@ -9,6 +9,10 @@ Atvasinājuma vērtības var noteikt izmantojot analītiskās formulas veidā(at
 Links uz grafiku, kur attēloti [gan ar analītiskās, gan diferencēšanas veidā attēlotie atasinājumi](https://github.com/valterssne/sne-studijas/blob/master/ld3/3ld.png), izmantojot Gnuplot ([kods](https://github.com/valterssne/sne-studijas/blob/master/ld3/derivative_gnp.gp)). Dati ir pārskatāmāki un var redzēt, ka abu veidu rēķināšanas rezultāti ir vienādi.
 Dati tika iegūti no [dat faila](https://github.com/valterssne/sne-studijas/blob/master/ld3/derivative.dat), kurā programma ievadīja visas aprēķinātās un x vērtības.
 
+[Termināļa history](https://github.com/valterssne/sne-studijas/blob/master/history_20210111_all_lw) - šeit diemžēl ir tikai lielākā daļa no vēsture, likās ka linux saglabā visu darbību vēsturi.
+
+
+Kods:
 ```
 #include<stdio.h>
 #include<math.h>
