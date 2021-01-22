@@ -3,7 +3,7 @@
 
 float taisn(float);
 float trapece(float);
-//float simpsons(float);
+float simpsons(float);
 
 float a,b,preciz,h,s,s1,s2, integr1=0, integr2;
 int k, n=2;
@@ -20,7 +20,7 @@ scanf("%f",&preciz);
 
 printf("Rezultāts izmantojot taisnstūra metodi: %f\n", taisn(integr1));
 printf("Rezultāts izmantojot trapeces metodi: %f\n", trapece(integr1));
-//printf("Rezultāts izmantojot Simpsona metodi: %f\n", simpsons(integr1));
+printf("Rezultāts izmantojot Simpsona metodi: %f\n", simpsons(integr1));
 
 }
 
@@ -59,14 +59,13 @@ return integr1;
 }
 
 
-/*
+
 float simpsons(float integr1){
 
-	integr1=((b-a)/6)*(pow(cos(a),2)-4*(pow(cos((a+b)/2),2)+pow(cos(b),2)));
+	h=(b-a)/n
+	integr1=(h/3)*(pow(cos(a),2)-4*(pow(cos((a+b)/2),2)+pow(cos(b),2)));
 	
 	while(fabs(integr2-integr1)>preciz){
-		n*=2;
-		h=(b-a)/n;
 		integr1=integr2;
 		integr2=0;
 		for(k=1;k<n;k++){
@@ -82,4 +81,4 @@ float simpsons(float integr1){
 
 }
 return integr1;
-}*/
+}
